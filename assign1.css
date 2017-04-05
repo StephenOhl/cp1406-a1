@@ -1,10 +1,13 @@
 @charset "utf-8" ;
 
 /* CSS Document */
+html{
+	background-color : #25787C ;
+}
+
 h1{
 	color: black ;
 	text-align : center ;
-	background-color : cadetblue ;
    }
 
 h2{
@@ -13,14 +16,14 @@ h2{
 }
 
 h3{ 
-	margin-bottom : -2% ;
+	margin-bottom : -4% ;
 	padding-left: 2%
 }
 
 p{
     font-size : 1.5em ;
     padding-left : 5% ;
-    padding-top : 0px ;
+    padding-top : 0% ;
     padding-bottom : 0px ;
     padding-right : 20% ;
 }
@@ -61,11 +64,11 @@ p{
 .button {
     background-color : gray ; 
     border : solid ;
-    color : #121010 ;
-    padding-top: 1% ;
-    padding-right: 1% ;
-    padding-left: 1% ;
-    padding-bottom: 1% ;
+    color : black ;
+    padding-top : 1% ;
+    padding-right : 1% ;
+    padding-left : 1% ;
+    padding-bottom : 1% ;
     text-decoration : none ;
     display : inline-block ;
     font-size : 1em ;
@@ -74,28 +77,28 @@ p{
 .button:hover {
     background-color : darkgray ; 
     color : white ;
+	border:none ;
 }
 
 
 .signupbutton{
-	align-self: center ;
+	align-self : center ;
 	color : black ;
     background-color : burlywood ; 
     border : solid ;
 	border-color: darkolivegreen ;
-	text-emphasis-color: black ;
+	text-emphasis-color : black ;
     padding-top: 1% ;
     padding-right: 2% ;
     padding-left: 2% ;
     padding-bottom : 1% ;
 	text-decoration : none ;
 	font-style: oblique ;
-    display : inline-block ;
     font-size : 2.5em ;
 }
 
 .signupbutton:hover {
-    background-color : bisque ; 
+    background-color : black ; 
     color : white ;
 }
 
@@ -104,6 +107,9 @@ p{
 	padding-bottom: 1% ;
 }
 
+#spacing{
+	margin-top : 2% ; 
+}
 #column{
     column-count : 3 ;
     column-gap : normal ;
