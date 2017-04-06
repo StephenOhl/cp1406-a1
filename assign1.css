@@ -15,9 +15,10 @@ h2{
 	padding-top : 0% ;
 }
 
+
 h3{ 
-	margin-bottom : -4% ;
-	padding-left: 2%
+	padding-left : 2% ;
+	margin-bottom : -2% ;
 }
 
 p{
@@ -28,8 +29,15 @@ p{
     padding-right : 20% ;
 }
 
-.boldtext{
-    font-weight : bold ;
+.headerspacing{
+/*for the about volleyball page    */	
+/*This is used to put the header   */
+/*just above the text it belongs to*/
+/*For some reason the -4% makes the*/
+/*header look like it is in the    */
+/*middle of the text in Dreamweaver*/
+/*but displays ok in the browser   */
+	margin-bottom : -4% ;
 }
 
 .floatBox {
@@ -38,6 +46,7 @@ p{
 	padding-bottom : 2% ;
 	margin : -2% 1% 0% 2% ;
 }
+
 .textbox1{
 	padding-top : 1% ; 
 	padding-left : 2% ;
@@ -47,7 +56,7 @@ p{
 }
 
 .imagebox{
-	text-align: center;
+	text-align : center ;
 }
 
 .textwrapper{
@@ -107,6 +116,9 @@ p{
 	padding-bottom: 1% ;
 }
 
+#centeringtext{
+	padding-left : 40% ;
+}
 #spacing{
 	margin-top : 2% ; 
 }
